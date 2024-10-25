@@ -48,16 +48,6 @@ customElements.define(
   }
 );
 
-// var carousels = document.querySelectorAll(".spaces-carousel");
-// carousels.forEach((carousel) => {
-//   var flkty = new Flickity(carousel, {
-//     prevNextButtons: false,
-//     pageDots: false,
-//     contain: true,
-//     cellAlign: "left",
-//   });
-// });
-
 // Mobile menu
 let toggle = document.querySelector(".mobile-menu-toggle");
 let menu = document.querySelector(".menu");
@@ -115,30 +105,3 @@ customElements.define(
     }
   }
 );
-
-// var elem = document.querySelector(".media-carousel");
-// let counter = document.querySelector(".pagination-counter");
-
-// var flkty = new Flickity(elem, {
-//   prevNextButtons: false,
-//   pageDots: false,
-//   wrapAround: true,
-// });
-
-// function updateStatus() {
-//   var slideNumber = flkty.selectedIndex + 1;
-//   counter.textContent = slideNumber + " / " + flkty.slides.length;
-// }
-// updateStatus();
-
-// flkty.on("select", updateStatus);
-
-// let next = document.querySelector(".pagination-button.next");
-// next.addEventListener("click", (e) => {
-//   flkty.next();
-// });
-
-// let prev = document.querySelector(".pagination-button.prev");
-// prev.addEventListener("click", (e) => {
-//   flkty.previous();
-// });
